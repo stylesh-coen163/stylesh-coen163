@@ -1,0 +1,119 @@
+.men-intro.wrapper{
+    width: 100%;
+    height:100%;
+    
+    background-color: rgba(255,141,41,0.25);
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.section.men-intro{
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+}
+.blog.men-intro{
+    flex:33%;
+    max-width: 300px;
+    max-height:300px;
+    padding: 0 30px;
+    text-align:center;
+    display:block;
+}
+
+.blog.men-intro img{
+    opacity: 0.8;
+    max-height:100%;
+    
+}
+
+.men-intro.wrapper.two{
+    background-color:rgba(255,235,216,1);
+}
+
+.men-intro.wrapper.three{
+    background-color:rgba(255,230,188,1);
+}
+
+.men-intro.wrapper.three img{
+    transform: translateX(-30%);
+}
+.men-intros{
+    margin: 0;
+    padding: 3%;
+    
+    min-height: 25vh;
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.men-intro p{
+    font-size: 1.5em;
+}
+
+
+.men-intro.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.section.intro-sec{
+    padding-top:5%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em 1.5em;
+}
+.section-header {
+    padding-top: 1.5em;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 25vw;
+    width: 20vw;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

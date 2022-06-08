@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "require": "^2.4.20"
+  },
+  "name": "163_final_project",
+  "version": "1.0.0",
+  "description": "Web App ",
+  "main": "cart.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Qin",
+  "license": "ISC"
+}
